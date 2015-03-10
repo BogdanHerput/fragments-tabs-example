@@ -24,7 +24,6 @@ public class MainActivity extends ActionBarActivity {
 
         pager.setAdapter(new ListPagerAdapter(getSupportFragmentManager()));
         pageIndicator.setTextColor(getResources().getColor(R.color.black));
-        pageIndicator.setSelectedColor(getResources().getColor(R.color.blue));
         pageIndicator.setViewPager(pager, 2);
     }
 
